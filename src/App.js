@@ -47,6 +47,8 @@ class App extends Component {
 
     const countercompsincr = this.state.counters.map(counter => {if(id === counter.id){counter.value = counter.value+1}});
 
+    console.log(countercompsincr.length);
+
     this.setState(
 
         {countercompsincr}
